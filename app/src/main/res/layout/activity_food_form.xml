@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+                <!--Price range-->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:text="@string/price"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+            <CheckBox android:id="@+id/checkbox_price1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_price1"
+                android:onClick="onPriceClicked"/>
+            <CheckBox android:id="@+id/checkbox_price2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_price2"
+                android:onClick="onPriceClicked"/>
+            <CheckBox android:id="@+id/checkbox_price3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_price3"
+                android:onClick="onPriceClicked"/>
+            <CheckBox android:id="@+id/checkbox_price4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_price4"
+                android:onClick="onPriceClicked"/>
+
+    </LinearLayout>
+                    <!--Distance-->
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:text="@string/distance"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp" />
+            <RadioButton android:id="@+id/distance1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_distance1"
+                android:onClick="onDistanceClicked"/>
+            <RadioButton android:id="@+id/distance2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_distance2"
+                android:onClick="onDistanceClicked"/>
+            <RadioButton android:id="@+id/distance3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_distance3"
+                android:onClick="onDistanceClicked"/>
+            <RadioButton android:id="@+id/distance4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_distance4"
+                android:onClick="onDistanceClicked"/>
+
+            <!--Food types-->
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:text="@string/diversity"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp" />
+            <CheckBox android:id="@+id/foodtype1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_type1"
+                android:onClick="onFoodClicked"/>
+            <CheckBox android:id="@+id/foodtype2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_type2"
+                android:onClick="onFoodClicked"/>
+            <CheckBox android:id="@+id/foodtype3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_type3"
+                android:onClick="onFoodClicked"/>
+            <CheckBox android:id="@+id/foodtype4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_type4"
+                android:onClick="onFoodClicked"/>
+            <CheckBox android:id="@+id/foodtype5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_type5"
+                android:onClick="onFoodClicked"/>
+
+            <CheckBox android:id="@+id/foodtype7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_type7"
+                android:onClick="onFoodClicked"/>
+            <CheckBox android:id="@+id/foodtype8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_type8"
+                android:onClick="onFoodClicked"/>
+            <CheckBox android:id="@+id/foodtype9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_type9"
+                android:onClick="onFoodClicked"/>
+            <CheckBox android:id="@+id/foodtype10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_type10"
+                android:onClick="onFoodClicked"/>
+            <CheckBox android:id="@+id/foodtype11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_type11"
+                android:onClick="onFoodClicked"/>
+            <CheckBox android:id="@+id/foodtype12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_type12"
+                android:onClick="onFoodClicked"/>
+            <CheckBox android:id="@+id/foodtype13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_type13"
+                android:onClick="onFoodClicked"/>
+            <CheckBox android:id="@+id/foodtype14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_type14"
+                android:onClick="onFoodClicked"/>
+
+
+            <!--Dietary restrictions-->
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:text="@string/restriction"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp" />
+            <CheckBox android:id="@+id/diet1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_restrictions1"
+                android:onClick="onDietClicked"/>
+            <CheckBox android:id="@+id/diet2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_restrictions2"
+                android:onClick="onDietClicked"/>
+            <CheckBox android:id="@+id/diet3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_restrictions3"
+                android:onClick="onDietClicked"/>
+            <CheckBox android:id="@+id/diet4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_restrictions4"
+                android:onClick="onDietClicked"/>
+            <CheckBox android:id="@+id/diet5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_restrictions5"
+                android:onClick="onDietClicked"/>
+            <CheckBox android:id="@+id/diet6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_restrictions6"
+                android:onClick="onDietClicked"/>
+            <CheckBox android:id="@+id/diet7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_restrictions7"
+                android:onClick="onDietClicked"/>
+            <CheckBox android:id="@+id/diet8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_restrictions8"
+                android:onClick="onDietClicked"/>
+            <CheckBox android:id="@+id/diet9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_restrictions9"
+                android:onClick="onDietClicked"/>
+
+            <!--healthy or not -->
+            <CheckBox android:id="@+id/healthy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_form_post_healthy"
+                android:onClick="onHealthyClicked"/>
+            <Button
+                android:id="@+id/post_message"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:paddingBottom="1dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="1dp"
+                android:text="@string/food_form_done"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </ScrollView>
+
