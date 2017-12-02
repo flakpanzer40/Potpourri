@@ -3,8 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:title="@string/recommend"
+        android:id="@+id/recommendme"
+        android:icon="@drawable/ic_recommendme"
+        app:showAsAction="ifRoom" />
+
+    <item
         android:title="@string/search"
-        android:id="@+id/action_favorite"
+        android:id="@+id/search"
         android:icon="@drawable/ic_search"
         app:showAsAction="ifRoom" />
 
