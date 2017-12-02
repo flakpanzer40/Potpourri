@@ -18,4 +18,10 @@ public class SearchResults extends AppCompatActivity {
             getSupportFragmentManager().beginTransaction().add(R.id.results_container, result).commit();
         }
     }
+
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+        finish();
+    }
 }

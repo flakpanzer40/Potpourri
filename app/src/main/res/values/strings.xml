@@ -1,6 +1,49 @@
 <resources>
     <string name="app_name">Potpourri</string>
 
+    <string name="food_form">Food Preference</string>
+    <string name="price">Price Range</string>
+    <string name="food_form_price1">$</string>
+    <string name="food_form_price2">$$</string>
+    <string name="food_form_price3">$$$</string>
+    <string name="food_form_price4">$$$$</string>
+
+    <string name="distance">Distance</string>
+    <string name="food_form_distance1">0.25KM</string>
+    <string name="food_form_distance2">1KM</string>
+    <string name="food_form_distance3">5KM</string>
+    <string name="food_form_distance4">10KM</string>
+
+    <string name="diversity">Type of food</string>
+    <string name="food_form_type1">American</string>
+    <string name="food_form_type2">British</string>
+    <string name="food_form_type3">Caribbean</string>
+    <string name="food_form_type4">Chinese</string>
+    <string name="food_form_type5">French</string>
+    <string name="food_form_type6">Indian</string>
+    <string name="food_form_type7">Italian</string>
+    <string name="food_form_type8">Japanese</string>
+    <string name="food_form_type9">Mediterranean</string>
+    <string name="food_form_type10">Mexican</string>
+    <string name="food_form_type11">Spanish</string>
+    <string name="food_form_type12">Thai</string>
+    <string name="food_form_type13">Vietnamese</string>
+
+    <string name = "restriction">Dietary Restrictions</string>
+    <string name="food_form_restrictions1">Vegan</string>
+    <string name="food_form_restrictions2">Nut Free</string>
+    <string name="food_form_restrictions3">Lactose Free</string>
+    <string name="food_form_restrictions4">Egg free</string>
+    <string name="food_form_restrictions5">Wheat free</string>
+    <string name="food_form_restrictions6">Soy free</string>
+    <string name="food_form_restrictions7">No fish</string>
+    <string name="food_form_restrictions8">No shellfish</string>
+    <string name="food_form_restrictions9">Halal</string>
+
+    <string name="food_form_post_healthy">Healthy</string>
+
+    <string name="food_form_done">Submit</string>
+
     <string name="search">Search</string>
     <string name="recommend">Recommend Me</string>
     <string name="see_more">View Restaurants</string>
