@@ -19,22 +19,7 @@ public class FoodForm extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_form);
-        CheckBox price1 = (CheckBox) findViewById(R.id.checkbox_price1);
-        CheckBox price2 = (CheckBox) findViewById(R.id.checkbox_price2);
-        CheckBox price3 = (CheckBox) findViewById(R.id.checkbox_price3);
-        CheckBox price4 = (CheckBox) findViewById(R.id.checkbox_price4);
-        if(price1.isChecked()){
 
-        }
-        if(price2.isChecked()){
-
-        }
-        if(price3.isChecked()){
-
-        }
-        if(price4.isChecked()){
-
-        }
     }
 
     @Override
@@ -187,20 +172,7 @@ public class FoodForm extends AppCompatActivity {
                 if (checked){
 
                 }
-            case R.id.foodtype15:
-                if (checked){
 
-                }
-                // Put some meat on the sandwich
-
-            case R.id.foodtype16:
-                if (checked){
-
-                }
-            case R.id.foodtype17:
-                if (checked){
-
-                }
         }
     }
 

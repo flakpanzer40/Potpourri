@@ -1,43 +1,48 @@
 <resources>
     <string name="app_name">Food Preference</string>
-    <string name="contact_form">Food preference</string>
-    <string name="contact_form_price1">$</string>
-    <string name="contact_form_price2">$$</string>
-    <string name="contact_form_price3">$$$</string>
-    <string name="contact_form_price4">$$$$</string>
-    <string name="contact_form_distance1">0.25KM</string>
-    <string name="contact_form_distance2">0.75KM</string>
-    <string name="contact_form_distance3">1KM</string>
-    <string name="contact_form_distance4">8KM</string>
-    <string name="contact_form_type1">American</string>
-    <string name="contact_form_type2">British</string>
-    <string name="contact_form_type3">Canadian</string>
-    <string name="contact_form_type4">Carribean</string>
-    <string name="contact_form_type5">Chinese</string>
-    <string name="contact_form_type6">French</string>
-    <string name="contact_form_type7">Greek</string>
-    <string name="contact_form_type8">Indian</string>
-    <string name="contact_form_type9">Italian</string>
-    <string name="contact_form_type10">Japanese</string>
-    <string name="contact_form_type11">Mediterranean</string>
-    <string name="contact_form_type12">Mexican</string>
-    <string name="contact_form_type13">Moroccan</string>
-    <string name="contact_form_type14">Spanish</string>
-    <string name="contact_form_type15">Thai</string>
-    <string name="contact_form_type16">Turkish</string>
-    <string name="contact_form_type17">Vietnamese</string>
+    <string name="food_form">Food preference</string>
+    <string name = "price">Price Range</string>
+    <string name="food_form_price1">$</string>
+    <string name="food_form_price2">$$</string>
+    <string name="food_form_price3">$$$</string>
+    <string name="food_form_price4">$$$$</string>
 
-    <string name="contact_form_restrictions1">Vegan</string>
-    <string name="contact_form_restrictions2">Nut Free</string>
-    <string name="contact_form_restrictions3">Lactose Free</string>
-    <string name="contact_form_restrictions4">Egg free</string>
-    <string name="contact_form_restrictions5">Wheat free</string>
-    <string name="contact_form_restrictions6">Soy free</string>
-    <string name="contact_form_restrictions7">No fish</string>
-    <string name="contact_form_restrictions8">No shellfish</string>
-    <string name="contact_form_restrictions9">Halal</string>
-    <string name="contact_form_post_healthy">Healthy</string>
-    <string name="contact_form_category">Submit</string>
+    <string name = "distance">Distance</string>
+    <string name="food_form_distance1">0.25KM</string>
+    <string name="food_form_distance2">0.75KM</string>
+    <string name="food_form_distance3">1KM</string>
+    <string name="food_form_distance4">8KM</string>
 
-    <string name="contact_posted">Your message has been successfully delivered.</string>
+    <string name = "diversity">Type of food</string>
+    <string name="food_form_type1">American</string>
+    <string name="food_form_type2">British</string>
+    <string name="food_form_type3">Carribean</string>
+    <string name="food_form_type4">Chinese</string>
+    <string name="food_form_type5">French</string>
+
+    <string name="food_form_type7">Indian</string>
+    <string name="food_form_type8">Italian</string>
+    <string name="food_form_type9">Japanese</string>
+    <string name="food_form_type10">Mediterranean</string>
+    <string name="food_form_type11">Mexican</string>
+    <string name="food_form_type12">Spanish</string>
+    <string name="food_form_type13">Thai</string>
+    <string name="food_form_type14">Vietnamese</string>
+
+    <string name = "restriction">Dietary Restrictions</string>
+    <string name="food_form_restrictions1">Vegan</string>
+    <string name="food_form_restrictions2">Nut Free</string>
+    <string name="food_form_restrictions3">Lactose Free</string>
+    <string name="food_form_restrictions4">Egg free</string>
+    <string name="food_form_restrictions5">Wheat free</string>
+    <string name="food_form_restrictions6">Soy free</string>
+    <string name="food_form_restrictions7">No fish</string>
+    <string name="food_form_restrictions8">No shellfish</string>
+    <string name="food_form_restrictions9">Halal</string>
+
+    <string name="food_form_post_healthy">Healthy</string>
+
+    <string name="food_form_done">Submit</string>
+
+    <string name="food_posted">Your message has been successfully delivered.</string>
 </resources>
